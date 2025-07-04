@@ -1,0 +1,40 @@
+.env
+
+# 二进制文件
+tron-poc
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件
+*.test
+
+# 输出目录
+*.out
+
+# Go 工作区文件
+go.work
+
+# 私钥文件（重要：防止私钥泄露）
+private_key.txt
+*.key
+*.pem
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db 
